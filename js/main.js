@@ -88,7 +88,7 @@ $(document).ready(function(){
   $('.goUp').click(function(){
     $('body, html').animate({
       scrollTop: '0px'
-    }, 520); //this control the speed
+    }, 820); //this control the speed
   });
 
   $(window).scroll(function(){

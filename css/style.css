@@ -112,8 +112,8 @@ hr {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #71bd46;
-	border-color: #71bd46;
+	background-color: #64b5f6;
+	border-color: #64b5f6;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -478,6 +478,7 @@ label {
 	display: none;
 	padding: 15px;
 	background: #2196f3;
+	opacity: 0.5;
 	font-size: 22spx;
 	color: #fff;
 	cursor: pointer;
@@ -492,4 +493,22 @@ label {
 	h2 {
 		font-size: 30px;
 	}
+
+	.service {
+		margin: 0px 0px 40px 62px;
+	}
+
+	.thumbnail {
+		margin: 0px ppx 0px 60px;
+		text-align: center;
+	}
+
+	.thumbnail img {
+		margin: auto;
+	}
+
+	.service i {
+		text-align: center;
+	}
+
 }

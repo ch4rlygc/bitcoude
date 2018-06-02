@@ -836,7 +836,7 @@
 			required: {
 				name: "Required",
 				type: "required",
-				message: "This is required<!-- data-validator-required-message to override -->"
+				message: "Lo siento, este campo es requerido<!-- data-validator-required-message to override -->"
 			},
 			checkone: {
 				name: "Checkone",
