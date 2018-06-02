@@ -1,5 +1,6 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #333;
@@ -36,7 +37,7 @@ p {
 	line-height: 24px;
 }
 a {
-	color: #71bd46;
+	color: #64b5f6;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -68,7 +69,7 @@ ul, ol {
 hr {
 	height: 2px;
 	width: 60px;
-	background: #71bd46;
+	background: #1976d2 ;
 	position: relative;
 	border: 0;
 	margin: 30px 0 0 0;
@@ -88,7 +89,7 @@ hr {
 	font-weight: 700;
 }
 #menu a.navbar-brand i.fa {
-	color: #88bb45;
+	color: #64b5f6;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -97,14 +98,14 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #71bd46;
+	color: #64b5f6;
 }
 .on {
 	background-color: #222222 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #71bd46 !important;
+	color: #64b5f6 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -122,7 +123,8 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg4.png) no-repeat bottom center;
+	/*background: url(../img/header-bg4.png) no-repeat bottom center;*/
+	background: url(https://www.indianic.com/wp-content/uploads/2016/07/webdevelopment-bg.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: #fff;
 	position: relative;
@@ -132,6 +134,12 @@ header {
 	/*-webkit-filter: grayscale(100%);
 	filter: grayscale(50%);*/
 }
+
+header backgroud-image {
+	 -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
 header p {
 	color: #fff;
 	font-size: 25px;
@@ -152,22 +160,23 @@ header p {
 	font-weight: 600;
 }
 .color {
-	color: #71bd46;
-	font-weight: 700;
+	/*color: #71bd46;*/
+	color: #ffff;
+	font-weight: 780;
 }
 .btn-default {
-	color: #71bd46;
+	color: #90caf9;
 	font-family: 'Open Sans', sans-serif;
 	background-color: transparent;
-	border: 1px solid #71bd46;
+	border: 1px solid #90caf9;
 	border-radius: 4px;
 	margin: 0 8px;
 	font-size: 18px;
 	transition: all 0.5s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	background-color: #71bd46;
-	border: 1px solid #71bd46;
+	background-color: #64b5f6;
+	border: 1px solid #64b5f6;
 	color: #eeeeee;
 }
 /* About Section */
@@ -176,7 +185,7 @@ header p {
 	background-color: #f6f6f6;
 }
 #about-section h4 {
-	border-bottom: 1px solid #b8dea2;
+	border-bottom: 1px solid #90caf9;
 	padding-bottom: 20px;
 	display: inline-block;
 }
@@ -215,7 +224,7 @@ img.team-img {
 	padding: 100px 0;
 }
 #services-section h4 {
-	border-bottom: 1px solid #b8dea2;
+	border-bottom: 1px solid #90caf9;
 	padding-bottom: 20px;
 	display: inline-block;
 }
@@ -225,7 +234,7 @@ img.team-img {
 #services-section i.fa {
 	font-size: 36px;
 	margin-right: 20px;
-	color: #71bd46;
+	color: #64b5f6;
 	padding-bottom: 10px;
 	display: block;
 }
@@ -249,13 +258,13 @@ ol.type li a {
 	color: #888;
 }
 ol.type li a.active {
-	color: #71bd46;
-	border-bottom: 1px solid #b8dea2;
+	color: #64b5f6;
+	border-bottom: 1px solid #90caf9;
 	padding-bottom: 8px;
 }
 ol.type li a:hover {
-	color: #71bd46;
-	border-bottom: 1px solid #b8dea2;
+	color: #64b5f6;
+	border-bottom: 1px solid #90caf9;
 	padding-bottom: 8px;
 }
 .isotope-item {
@@ -346,7 +355,7 @@ ol.type li a:hover {
 	padding: 30px 0;
 }
 #contact-section i.fa {
-	color: #71bd46;
+	color: #64b5f6;
 	margin-right: 20px;
 }
 label {
@@ -380,15 +389,15 @@ label {
 }
 #contact-section .btn {
 	background: transparent;
-	border: 1px solid #71bd46;
+	border: 1px solid #64b5f6;
 	border-radius: 4px;
 	padding: 10px 20px;
 	margin-top: 20px;
-	color: #71bd46;
+	color: #64b5f6;
 	font-size: 16px;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #71bd46;
+	background: #64b5f6;
 	color: #fff;
 }
 #contact-section .text-danger {
@@ -417,7 +426,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #social-section .social i.fa {
 	font-size: 24px;
 	padding: 4px 5px;
-	color: #71bd46;
+	color: #64b5f6;
 	transition: all 0.5s;
 }
 #social-section .social i.fa:hover {
@@ -457,4 +466,10 @@ label {
 .hover-bg .hover-text {
 	padding: 15% 10%;
 }
+}
+
+/* New Classes*/
+
+#bitCoude hover{
+	font-color: #64b5f6;
 }
